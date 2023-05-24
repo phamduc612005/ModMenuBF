@@ -1,7 +1,7 @@
 local placeId = game.PlaceId
 if placeId == 2753915549 or placeId == 4442272183 or placeId == 7449423635 then -- "7449423635 Third Sea","4442272183 second sea","2753915549 first sea"
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "MENU GUI || BLOX FRUIT \n By PMD", HidePremium = true,IntroText = "PHAMDUC61",IntroEnabled = true, SaveConfig = true, ConfigFolder = "TESTCONFIG"})
+local Window = OrionLib:MakeWindow({Name = "MENU GUI || BLOX FRUIT \n By PMD", HidePremium = false,IntroText = "PHAMDUC61",IntroEnabled = true, SaveConfig = true, ConfigFolder = "TESTCONFIG"})
 
 
 --values
